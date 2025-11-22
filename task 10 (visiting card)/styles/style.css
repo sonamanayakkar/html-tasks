@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Saira+Stencil+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    background-color: wheat;
+}
+
+.container {
+    overflow: hidden;
+    border-radius: 13px;
+    box-shadow: 0px 0px 6px 1px black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 60%;
+    height: 65%;
+
+}
+
+
+/*          left side container */
+
+.container .left {
+    background-color: rgb(118, 2, 2);
+    position: relative;
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+}
+
+.container .one {
+    position: absolute;
+    width: 88%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    filter: drop-shadow(0px 0px 5px gold);
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    transform: translate(-50%, -5%);
+    width: 60%;
+    height: 70%;
+}
+
+.one .content {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -5%);
+}
+
+            /* fonts */
+
+h1 {
+    text-shadow: 0px 0px 15px rgb(255, 255, 254);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+}
+
+.tag {
+    font-family: "Saira Stencil One", sans-serif;
+    text-shadow: 0px 0px 6px rgb(195, 195, 195);
+    color: rgb(87, 2, 2);
+    text-align: center;
+}
+
+h3 {
+    font-weight: 300;
+    color: rgb(61, 47, 36);
+     font-family: "Keania One", sans-serif;
+}
+
+.name {
+    text-shadow: 10px 0px 5px rgb(2, 2, 2);
+    font-size: 60px;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+}
+
+.roll {
+    text-align: center;
+    color: rgb(70, 55, 1);
+    font-family: "Audiowide", sans-serif;
+}
+i{
+    color: white;
+}
+
+
+/*          right side container */
+
+.container .right {
+    background-color: rgb(251, 193, 177);
+    padding: 20px;
+    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.right .two {
+
+    width: 80%;
+    height: 35%;
+
+}
+
+.right .first {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+
+}
+
+.right .second {
+    padding: 20px;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.location1 .box,h3 {
+    display: inline-block;
+}
+
+.box {
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(154, 5, 5);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.location1 {
+    margin-top: 5px;
+}
