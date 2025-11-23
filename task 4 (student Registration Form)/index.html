@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="" class="form">
+            <h2><span>S</span><span>c</span><span>h</span><span>o</span><span>o</span><span>l</span> Championship Registration Form</h2>
+            <div class="box">
+                <label for="schoolname">School name:<sup>*</sup></label>
+                <input type="text" id="schoolname" name="school name">
+            </div>
+
+            <div class="box">
+                <label for="schoolername">Schooler name:<sup>*</sup></label>
+
+                <div class="inside">
+                    <input type="text" id="schoolername" required placeholder="First" name="fname">
+                    <input type="text" id="schoolername" required placeholder="last" name="lname">
+                </div>
+
+            </div>
+
+            <div class="box">
+                <label for="prname">Parent name:<sup>*</sup></label>
+
+                <div class="inside">
+                    <input type="text" id="prname" required placeholder="First">
+                    <input type="text" id="prname" required placeholder="last">
+                </div>
+
+            </div>
+
+            <div class="box">
+                <label for="prphone">Parent Phone:<sup>*</sup></label>
+                <input type="number" id="prphone" placeholder="### ### ####" required name="phnumber">
+            </div>
+            <div class="box">
+                <label for="email">Parent Email:<sup>*</sup></label>
+                <input type="email" id="email" required>
+            </div>
+            
+            <div class="box">
+                <label for="sport">Preferred Sport:<sup>*</sup></label>
+                <input type="text" id="sport" required name="sport">
+            </div>
+
+            <div class="box box1">
+                <div class="foot">
+                    <label for="varify">Verification:<sup>*</sup></label>
+                    <div class="verification">
+                        <input type="checkbox" required id="check"><pre>i'am not a robot</pre>
+                        <img src="images/recaptcha.png">
+                    </div>
+
+                    
+                </div>
+
+                <button type="submit"><i class="fa-regular fa-paper-plane"></i>   Submit</button>
+
+            </div>
+        </form>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
