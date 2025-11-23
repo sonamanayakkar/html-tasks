@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+
+        <form action="">
+            <h1><i class="fa-solid fa-bolt"></i>  ELECTRONIC ITEMS</h1>
+            <div class="box">
+                <label for="pname">Product Name</label><br>
+                <input type="text" id="pname" class="inputs" maxlength="15" required>
+            </div>
+
+            <div class="box">
+                <label for="cate">Category</label><br>
+                <!-- <input type="text" id="cate" list="category" class="inputs" required> -->
+                <!-- <input type="text" id="cate" list="category" class="inputs" required> -->
+
+                <select id="select" >
+                    <optgroup label="RESISTIVE LOAD">
+                        <option>Lighting</option>
+                        <option>Heating water</option>
+                        <option>Cooking</option>
+                        <option>Boiling water</option>
+                        <option>Heating clothes</option>
+                        <option>Space heating</option>
+                    </optgroup>
+
+                    <optgroup label="CAPACITIVE LOAD">
+                        <option>Convert AC to DC</option>
+                        <option>Power conversion</option>
+                        <option>LED driver filtering</option>
+                        <option>DC charging</option>
+                    </optgroup>
+
+                    <optgroup label="MOTOR LOAD">
+                        <option>Air circulation</option>
+                        <option>Cooling</option>
+                        <option>Cooling & preserving food</option>
+                       
+                    </optgroup>
+
+                </select>
+                <!-- <datalist id="category">
+                    <option value="Entertainment"></option>
+                    <option value="Audio"></option>
+                    <option value="Kitchen Appliance"></option>
+                    <option value="Cleaning Appliance"></option>
+                    <option value="Cooling Appliance"></option>
+                    <option value="Bathroom Appliance"></option>
+                    <option value="Personal Care"></option>
+                    <option value="Home Appliance"></option>
+                </datalist> -->
+            </div>
+
+            <div class="box">
+                <label for="price">Price</label><br>
+                <input type="number" id="price" class="inputs">
+            </div>
+
+            <div class="box">
+                <label for="speci">Specification</label><br>
+                <textarea class="inputs text" required id="speci"></textarea>
+            </div>
+
+            <div class="box">
+                <button type="submit"><i class="fa-regular fa-paper-plane"></i>  Submit</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
