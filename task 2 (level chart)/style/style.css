@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px black;
+    /* border: black solid; */
+    height: 70%;
+    width: 60%;
+    overflow: hidden;
+
+}
+
+section {
+    overflow: hidden;
+}
+
+section .label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+section .range {
+
+    background-color: black;
+    height: 20px;
+}
+
+section .range .pink {
+    height: 100%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(255, 0, 123);
+    animation: slide;
+    animation-duration: 3s;
+
+}
+
+section .range .pink1 {
+    height: 100%;
+    width: 80%;
+    background-color: rgb(255, 0, 123);
+}
+
+section .range .pink2 {
+    height: 100%;
+    width: 98%;
+    background-color: rgb(255, 0, 123);
+}
+
+section .range .pink3 {
+    height: 100%;
+    width: 72%;
+    background-color: rgb(255, 0, 123);
+}
+
+section .range .pink4 {
+    height: 100%;
+    width: 65%;
+    background-color: rgb(255, 0, 123);
+}
+
+
+
+/* Animations */
+
+@keyframes slide {
+    from {
+
+        transform: translateX(-110%);
+        /* transition: 2s; */
+    }
+
+    to {}
+}
