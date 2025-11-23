@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* border: black solid; */
+    width: 90%;
+    height: 60%;
+}
+
+.container .box {
+    /* border: black solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+
+.boxf {
+    display: flex;
+    flex-direction: column;
+    /* border: black solid; */
+    row-gap: 20px;
+}
+
+
+.one {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.two {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.boxf .one,
+.two,
+.three {
+    background-color: green;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 87%;
+    height: 80%;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+}
+
+.second2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 87%;
+    height: 80%;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+
+}
+
+.innerone-1 {
+    background-color: green;
+    width: 98%;
+    height: 95%;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.innerone-2 {
+   background-color: green;
+    width: 98%;
+    height: 95%;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+
+.box .dir2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px rgb(255, 255, 255) solid;
+    outline: 20px solid rgb(9, 126, 185);
+    border-radius: 10px;
+    background-color: rgb(9, 126, 185);
+    height: 80%;
+    width: 80%;
+
+}
+
+h1 {
+    font-size: 200px;
+    color: white;
+}
+
+.box .dir3 {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px rgb(255, 255, 255) solid;
+    outline: 20px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+
+.box .dir3 .inside {
+
+    width: 80%;
+    height: 20%;
+    background-color: white;
+}
+
+.box .dir4 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background-color: rgb(255, 0, 0);
+}
+
+.box .dir4 .innerdir4 {
+    width: 270px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background-color: rgb(255, 255, 255);
+}
+
+.box .dir4 .innerdir4 .innerdir4-1 {
+    width: 260px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background-color: rgb(255, 0, 0);
+}
+
+.h1 {
+    font-size: 60px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .dir5 {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    outline: 20px solid rgb(255, 0, 0);
+}
+
+.box .dir5 .slide {
+    background-color: red;
+    width: 100%;
+    height: 60%;
+    clip-path: polygon(0 9%, 9% 0, 100% 91%, 91% 100%);
+}
+
+
+.box .dir6 {
+    width: 250px;
+    height: 250px;
+    background: rgb(255, 200, 0);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.box .dir6 .innerdir6 {
+    width: 200px;
+    height: 200px;
+    background: black;
+    /* border color */
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box .dir6 .innerdir6-1 {
+    width: 190px;
+    height: 190px;
+    background:  rgb(255, 200, 0);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    border-radius: 10px;
+}
