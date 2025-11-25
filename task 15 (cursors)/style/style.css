@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    /* cursor: url(../resized-image/6dee38d1d5c142d8eedb6f6a8c3d31b9.jpg),auto; */
+}
+
+.box {
+
+    height: 40%;
+    width: 20%;
+}
+
+.box1 {
+    background-image: url(../image/naruto\ eye.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: url(../resized-image/naruto\ eye.jpg), auto;
+}
+
+.box2 {
+    background-image: url(../image/6dee38d1d5c142d8eedb6f6a8c3d31b9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* cursor: url(../cursor-icon/icons8-cursor-24.png),auto; */
+    cursor: url(../resized-image/6dee38d1d5c142d8eedb6f6a8c3d31b9.jpg), auto;
+}
+
+.box3 {
+    background-image: url(../image/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: url(../resized-image/wallpaperflare.com_wallpaper\ \(1\).jpg), auto;
+
+}
+
+.box4 {
+    background-image: url(../image/34e73880362422ff2d5d1a6a97778468.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: url(../resized-image/34e73880362422ff2d5d1a6a97778468.jpg), auto;
+}
