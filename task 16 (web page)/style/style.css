@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Goldman:wght@400;700&family=Iceland&family=Nova+Square&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(232, 241, 248);
+}
+
+.container {
+    width: 92%;
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+}
+
+
+
+.slide {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.slide1 {
+    background-image: url(../images/6dee38d1d5c142d8eedb6f6a8c3d31b9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+.circle {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-17%, -50%);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+}
+
+.content {
+
+    width: 90%;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Nova Square", sans-serif;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(17, 125, 139);
+    border-radius: 5px;
+    width: 130px;
+    height: 45px;
+}
+
+.slide2 button {
+    border: none;
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+}
+
+.slide2 {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.slide2 .circle2 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    background-image: url(../images/cad9fecbd4c43eb6a1b2ff559b050127.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    transform: translate(-10%, -50%);
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translate(-18%, -50%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    width: 32%;
+    /* height: 80%; */
+
+}
+
+
+
+.slide3 {
+    background-image: url(../images/I\ am\ the\ spark\ that\ never\ dies.\ I\ am\ Bumblebee.💛🐝🚗🤖.Fan\ art\ created\ For\ showcase\ purposes\ on\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 13%, 100% 88%, 0% 100%);
+}
+
+.slide3 .circle3 {
+    display: flex;
+    align-items: center;
+}
+
+
+.inside {
+    padding: 10px;
+    height: 90%;
+    width: 80%;
+}
+
+.inside .content {
+    text-align: start;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+
+
+.slide4 .box {
+    position: relative;
+    width: 20%;
+}
+
+.slide4 .box input {
+    font-family: "Goldman", sans-serif;
+    border: none;
+    border-bottom: 1px rgb(255, 1, 132) solid;
+    width: 100%;
+    height: 0;
+    height: 6vh;
+}
+
+.slide4 .box input:focus {
+    outline: none;
+    border-bottom: 2px rgb(255, 1, 132) solid;
+}
+
+.slide4 .box textarea {
+    font-family: "Goldman", sans-serif;
+    width: 100%;
+    height: 10vh;
+    border: none;
+    border-bottom: 1px rgb(255, 1, 132) solid;
+}
+
+.slide4 .box textarea:focus {
+    outline: none;
+    border-bottom: 2px rgb(255, 1, 132) solid;
+}
+
+.slide4 .box .button button {
+    position: static;
+    border: none;
+    background-color: rgb(255, 1, 132);
+}
+
+.slide4 .box .button {
+    width: 100%;
+    text-align: end;
+
+}
+
+.box .content {
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+/* fonts */
+
+p {
+    font-family: "Iceland", sans-serif;
+    color: gray;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: start;
+}
+
+h1 {
+    font-family: "Bruno Ace SC", sans-serif;
+    color: rgb(189, 4, 99);
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "Goldman", sans-serif;
+    color: rgb(8, 138, 155);
+}
+
+.h2 {
+    font-family: "Bruno Ace SC", sans-serif;
+    color: rgb(189, 4, 99);
+}
+
+h3 {
+    font-family: "Goldman", sans-serif;
+    color: rgb(8, 138, 155);
+    margin-top: 20px;
+}
