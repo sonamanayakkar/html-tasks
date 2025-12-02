@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    position: relative;
+
+      background-image: url(../image/../image/nature\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+ 
+    height: 100vh;
+}
+
+.archery {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    background-image: url(../image/../image/table.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.man{
+    z-index: 1;
+    right: 0;
+    
+   
+    top: 30%;
+    position: absolute;
+    transition: 1s;
+    width: 300px;
+    height: 400px;
+    background-image: url(../image/green\ man.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.arrow {
+    position: absolute;
+    right: 90px;
+    top: 30.5%;
+    width: 180px;
+    height: 300px;
+    background-image: url(../image/right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.arrow2{
+    position: absolute;
+    right: 90px;
+   
+   top: 30.5%;
+    width: 180px;
+    height: 300px;
+    background-image: url(../image/right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+ .shoot1{
+   transform: translate(-1000px,-40px);
+     transition: 1s;
+}
+
+ .shoot2{
+    transform: translate(-1000px,30px);
+     transition: 1s;
+}
+.shoot3{
+     transform: translate(-1000px,-7px);
+     transition: 1s;
+}
+
+.return{
+    right: 20px;
+    position: absolute;
+  
+    width: 300px;
+    height: 300px;
+    background-image: url(../image/right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.button{
+    position: absolute;
+    right:30%;
+    bottom: 10%;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.116);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.button img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.reset img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reset{
+      right: 20%;
+    bottom: 10%;
+}
+
+.blink{
+    filter: drop-shadow(0px 0px 2px red);
+    box-shadow: 0px 0px 10px 5px rgb(115, 3, 3);
+}
+.blink2{
+   
+    animation: blink 1s  infinite   alternate ;
+}
+
+@keyframes blink {
+    10%{
+         filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+        box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
+    }
+    20%{
+         filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+        box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+    }
+
+    50%{
+         filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+        box-shadow: 0px 0px 50px 5px rgb(255, 255, 255);
+    }
+    80%{
+         filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+        box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+    }
+
+    100%{
+         filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+        box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+    }
+}
